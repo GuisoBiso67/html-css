@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap'); /* Roboto Condensed */
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #a09e9e;
+    background-image: linear-gradient(to top, #1d1c1c, #3d3a3a);
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+h1#title{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+p#subtitle{
+    display: block;
+    text-align: center;
+    height: 65px;
+    width: 300px;
+    margin: 5px auto;
+    font-size: smaller;
+}
+
+img#imageMarquesDePombal{
+    display: block;
+    margin: 10px auto;
+    border-radius: 50px;
+}
+
+li{
+    font-size: 20px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+footer > p{
+    font-size: 20px;
+}

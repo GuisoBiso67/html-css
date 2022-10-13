@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras Formatações</title>
+</head>
+<body>
+    <h1>Outras Formatações</h1>
+
+    <h2>Código-fonte</h2>
+    <p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem Javascript</p>
+    <pre>
+        <code>
+        #include <stdio.h>
+        #include <stdlib.h>
+    
+            int main()
+            {
+                int num,cont,valor=0;
+    
+                for (cont=1;cont<=5;cont++){
+                    scanf ("%d",&num);
+    
+                    if(num % 2 == 0){
+                        valor=valor+1;
+                    }
+                }
+                printf ("%d valores pares\n",valor);
+            }
+        </code>
+    </pre>
+    <!--só 'code' não organiza o codigo, enquanto que 'pre' antes do 'code' ficará organizado-->
+    <!--CRTL + SHIFT = formatar o código-->
+
+    <h2>Citações</h2>
+    <p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido</q></p>
+    <p>Segundo Rocky, no filme Rocky Balboa(2006):</p>
+    <blockquote cite="https://www.pensador.com/frase/NzU1OTQ5/">
+        O mundo não é um mar de rosas; é um lugar sujo, um lugar cruel, que não quer saber o quanto você é durão. Vai botar você de joelhos e você vai ficar de joelhos para sempre se você deixar. Você, eu, ninguém vai bater tão forte como a vida, mas não se trata de bater forte. Se trata de quanto você aguenta apanhar e seguir em frente, o quanto você é capaz de aguentar e continuar tentando. É assim que se consegue vencer.
+
+        Agora se você sabe do teu valor, então vá atrás do que você merece, mas tem que estar preparado para apanhar. E nada de apontar dedos, dizer que você não consegue por causa dele ou dela, ou de quem quer que seja. Só covardes fazem isso e você não é covarde, você é melhor que isso.
+    </blockquote>
+
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="Hypertext Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando!</p>
+
+    <h2>Texto Invertido</h2>
+    <p> <bdo dir="rtl">Estou aprendendo a criar coisas em HTML</bdo></p>
+    <p> <bdo dir="ltr">Estou aprendendo a criar coisas em HTML</bdo></p>
+</body>
+</html>

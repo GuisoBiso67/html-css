@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&display=swap');
+
+body{
+    background-color: #413e3eea;
+    color: white;
+}
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* ex16 */
+
+h1#ex016{
+    background-image: linear-gradient(to bottom, #9E00DF, #DE9E16, #16DE85);
+    color: #076904;
+}
+
+/* ex17 e ex18 */
+
+h1#ex017eex018{
+    /*
+    font-family: 'Fascinate', cursive;
+    font-weight: bold;
+    font-size: 48px;
+    font-style: italic;
+    */ 
+    
+    /* shorthand (compila essas 4 categorias ↑ em 1 só)
+    ORDEM: font-style -> font-weight -> font-size -> font-family */
+    font: italic bold 48px 'Fascinate', cursive;
+    /* text-align: center; */
+    text-decoration: underline;
+    text-indent: 30px;
+}
+
+/* ex20 pt.1 - hover */
+
+div.exhover > p{
+    display: none;
+}
+div.exhover:hover{
+    color:#DE9E16;
+    background-color: blue;
+    width: 150px;
+}
+div.exhover:hover > p{
+    display: block;
+    color:white;
+    background-color: green;
+    width: 130px;
+}
+
+/* ex20 pt.2 - links */
+
+li{
+    font-size: 25px;
+}
+a.linksLinks{
+    color:aqua;
+    text-decoration: none;
+}
+a.linksLinks:visited{
+    color: chartreuse;
+}
+a.linksLinks:hover{
+    color: #50017e;
+    text-decoration: underline;
+}
+a.linksLinks:active{
+    color:yellow;
+}
+a.especial{
+    background-color: chocolate;
+    color: chartreuse;
+    text-decoration: none;
+}
+a.especial:hover{
+    color: #50017e;
+    text-decoration: underline;
+}
+a.especial::after{
+    content: '©';
+}
+a.especial::before{
+    content:'©';
+}
+
+div.pseudoclasse{
+    display: inline-block;
+    background-color: lightgray;
+    color: black;
+    border: 1px solid #da3a3d;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+}
+
+/* ex20 pt.3 - pseudoclasses */
+
+h1#ex021{
+    background-color: #084e37;
+    height: 250px;
+    width: 250px;
+    border: 15px double #695704;
+    padding: 15px 45px 20px 35px;
+    margin: 40px 70px 60px auto;
+    outline: 10px double blue;
+}
+a#linkEX021{
+    color:white;
+    display: block;
+    border-width: 10px;
+    border-style: solid;
+    border-color: red;
+    padding: 10px 10px 10px 10px;
+}
